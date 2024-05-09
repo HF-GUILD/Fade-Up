@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <title>Cyborg - Awesome HTML5 Template</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/templatemo-cyborg-gaming.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+<!--
+
+TemplateMo 579 Cyborg Gaming
+
+https://templatemo.com/tm-579-cyborg-gaming
+
+-->
+  </head>
+
+<body>
+  <!-- ***** Preloader Start ***** -->
+  <div id="js-preloader" class="js-preloader">
+    <div class="preloader-inner">
+      <span class="dot"></span>
+      <div class="dots">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+  <!-- ***** Preloader End ***** -->
+
+  <!-- ***** Icon FPGraph for the survey -->
+  <div id="overlay-container">
+    
+    <img id="fpgraph-overlay" src="data:image/png;base64,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" alt="FPGraph Icon">
+  </div>
+
+  <!-- ***** Modal Box Start ***** -->
+  <div id="first-experiment-modal-box" class="modal-box">
+      <div class="heading-section">
+          <h4 id="header-first-mb">Welcome to our experiment</h4>
+      </div>
+      <!--
+      <div class="name">
+          <form id="nameForm" action="#">
+              <input type="text" id="nameInput" placeholder="Enter your name">
+          </form>
+      </div>
+    -->
+    <!--
+    <div class="heading-section">
+      <h4 id="rule-header">Rules</h4>
+    </div>
+
+    <div class="rules">
+      <h5 class="description">Images will be <em>described orally</em>.
+        <br>Your goal is to <em>find</em> the corresponding picture and <em>click on it</em>.
+        <br>If something unusual happen on the screen, press the <em>Enter key</em>.
+        <br><br>When you click on an image, <em>the image will be highlighted</em>, try on this example:
+      </h5>
+    </div>
+    -->
+
+    <div class="rules">
+      <h5 class="description">
+        You will see <em>101 images</em> arranged in a grid.
+      </h5>
+    </div>
+
+    <div class="heading-section">
+      <h4>Primary Task</h4>
+    </div>
+
+    <div class="rules">
+      <h5 class="description">
+        You will hear a short description of one image.<br>
+        <em>Scroll until you find the described image</em> and then <em>click</em> on it once.<br>
+        When you click on an image, it will be highlighted for just a moment.<br>
+        Once you have clicked on an image, you will hear the next description.<br>
+        Please <em>scroll</em>, <em>find</em>, and <em>click</em> on that image.<br>
+        The process will repeat <em>19 times</em>.<br>
+        Please be as <em>accurate</em> as possible.<br>
+        Please go as <em>quickly as you can without making mistakes</em>.<br>
+      </h5>
+    </div>
+
+    <div class="heading-section">
+      <h4>Secondary Task</h4>
+    </div>
+
+    <div class="rules">
+      <h5 class="description">
+        If <em>something unexpected happens</em>, please <em>hit your enter key</em>, and <em>then continue</em> with the main task.
+      </h5>
+    </div>
+
+    <hr>
+
+    <div class="rules">
+      <h5 class="description">
+        You can click on this image to see how it will be highlighted during the experiment.
+      </h5>
+    </div>
+
+    <img class="imgExample" src="assets/images/RGU_logo.png" alt="Image Stream"/>
+
+    <div class="rules">
+      <h5 class="summary"><em>Summary:</em><br>1. Accuracy <br>2. Speed <br>3. Press <em>Enter</em> if something unexpected happens</h5>
+    </div>
+
+    <div>
+      <input type="file" id="file-selector" accept=".jpg, .jpeg, .png">
+    </div>
+      <!--
+      <div id="languages">
+        <img src="assets/images/ukFlag.png" id="english-picture" alt="UK Flag">
+        <img src="assets/images/frenchFlag.png" id="french-picture" alt="French Flag">
+      </div>
+      <div id="selectedLanguage">
+        <h5 id="languageName">English</h5>
+      </div>
+      -->
+      <!-- <input type="file" id="myFile" name="filename"> -->
+      <!-- Safe the input against XSS attacls -->
+      <div class="main-button">
+          <!-- <a href="survey.html" id="startSurveyLink" onclick="checkForm(event)">Start</a> -->
+          <a id="startSurveyLink">Start</a>
+      </div>
+  </div>
+
+  <div id="second-experiment-modal-box" class="modal-box">
+    <!-- <div class="heading-section">
+      <h4 id="header-second-mb">Second part of the experiment</h4>
+    </div>
+
+    <div class="rules">
+      <h5 class="description">Images will be <em>described orally</em>.
+        <br>Your goal is to <em>find</em> the corresponding picture and <em>click on it</em>.
+        <br>If something unusual happen on the screen, press the <em>Enter key</em>.
+        <br><br>When you click on an image, <em>the image will be highlighted</em>, try on this example:
+      </h5>
+    </div>
+
+    <img class="imgExample" src="assets/images/RGU_logo.png" alt="Image Stream"/>
+
+    <div class="rules">
+      <h5 class="summary"><em>Summary:</em><br>1. Accuracy <br>2. Speed <br>3. Press <em>Enter</em> if something unexpected happens</h5>
+    </div>-->
+    <div class="rules">
+      <h5 class="description">
+        You will see <em>101 images</em> arranged in a grid.
+      </h5>
+    </div>
+
+    <div class="heading-section">
+      <h4>Primary Task</h4>
+    </div>
+
+    <div class="rules">
+      <h5 class="description">
+        You will hear a short description of one image.<br>
+        <em>Scroll until you find the described image</em> and then <em>click</em> on it once.<br>
+        When you click on an image, it will be highlighted for just a moment.<br>
+        Once you have clicked on an image, you will hear the next description.<br>
+        Please <em>scroll</em>, <em>find</em>, and <em>click</em> on that image.<br>
+        The process will repeat <em>19 times</em>.<br>
+        Please be as <em>accurate</em> as possible.<br>
+        Please go as <em>quickly as you can without making mistakes</em>.<br>
+      </h5>
+    </div>
+
+    <div class="heading-section">
+      <h4>Secondary Task</h4>
+    </div>
+
+    <div class="rules">
+      <h5 class="description">
+        If <em>something unexpected happens</em>, please <em>hit your enter key</em>, and <em>then continue</em> with the main task.
+      </h5>
+    </div>
+    <br>
+    <!-- <input type="file" id="myFile" name="filename"> -->
+    <!-- File upload on the client side to secure against file upload attacks -->
+    <!-- <div class="main-button">
+      <a id="startSurveyLink" onclick="checkForm(event)">Start</a>
+    </div> -->
+    <div class="main-button">
+      <a id="second-experiment-start-btn">Start</a>
+    </div>
+  </div>
+  <!-- ***** Modal Box End ***** -->
+
+  <div id="ending-screen" class="modal-box">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="page-content" id="startPage">
+            <div class="heading-section">
+              <h4>Thanks for your participation</h4>
+            </div>
+
+            <div class="row">
+              <div class="col-lg-4">
+              </div>
+              <div class="col-lg-4">
+                <img src="assets/images/fpgraph-512.png" alt="FPGraph icon">
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ***** Header Area Start ***** -->
+  <!--
+  <header class="header-area header-sticky">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <nav class="main-nav">
+
+                    <a href="index.html" class="logo">
+                        <img src="assets/images/logo.png" alt="">
+                    </a>
+
+                    <div class="search-input">
+                      <form id="search" action="#">
+                        <input type="text" placeholder="Type Something" id='searchText' name="searchKeyword" onkeypress="handle" />
+                        <i class="fa fa-search"></i>
+                      </form>
+                    </div>
+
+                    <ul class="nav">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="browse.html">Browse</a></li>
+                        <li><a href="details.html">Details</a></li>
+                        <li><a href="survey7_150.html" class="active">Streams</a></li>
+                        <li><a href="profile.html">Profile <img src="assets/images/profile-header.jpg" alt=""></a></li>
+                    </ul>   
+                    <a class='menu-trigger'>
+                        <span>Menu</span>
+                    </a>
+
+                </nav>
+            </div>
+        </div>
+    </div>
+  </header>
+  -->
+  <!-- ***** Header Area End ***** -->
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="page-content">
+
+          <!-- ***** Live Stream Start ***** -->
+          <div class="live-stream">
+            <div class="col-lg-12">
+              <div class="heading-section">
+                <h4>Experiment</h4>
+              </div>
+            </div>
+            <div id="clone" class="row">
+              <div class="col-lg-3 col-sm-6">
+                <div class="item">
+                  <div class="thumb">
+                    <img id="imgStream" src="assets/images/fpgraph-225.png" alt="Image Stream"/>
+                    <!--
+                    <div class="hover-effect">
+                      <div class="content">
+                        <div class="live">
+                          <a href="#">Live</a>
+                        </div>
+                        <ul>
+                          <li><a href="#"><i class="fa fa-eye"></i> 1.2K</a></li>
+                          <li><a href="#"><i class="fa fa-gamepad"></i> CS-GO</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="down-content">
+                    <div class="avatar">
+                      <img id="imgAvatar" src="assets/images/avatar-01.jpg" alt="" style="max-width: 46px; border-radius: 50%; float: left;">
+                    </div>
+                    <span id="streamerName"><i class="fa fa-check"></i> Kengan Omeg</span>
+                    <h4 id="title">Just Talking With Fans</h4>
+                  </div> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- ***** Live Stream End ***** -->
+
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <p>Copyright © 2036 <a href="#">Cyborg Gaming</a> Company. All rights reserved. 
+          
+          <br>Design: <a href="https://templatemo.com" target="_blank" title="free CSS templates">TemplateMo</a></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- Scripts -->
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+
+  <script src="assets/js/isotope.min.js"></script>
+  <script src="assets/js/owl-carousel.js"></script>
+  <script src="assets/js/tabs.js"></script>
+  <script src="assets/js/popup.js"></script>
+  <script src="assets/js/custom.js"></script>
+  <script src="assets/js/cloneStream.js"></script>
+  <script type="module" src="assets/js/index.js"></script>
+  <script type="module" src="assets/js/fadeUp.js"></script>
+  </body>
+
+</html>
